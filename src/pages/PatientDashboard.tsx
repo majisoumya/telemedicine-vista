@@ -215,11 +215,11 @@ const PatientDashboard = () => {
                 <CardTitle className="text-lg">Quick Actions</CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
-                <Button variant="outline" className="w-full justify-start shadow-card">
-                  <Bot className="mr-2 h-4 w-4" />
-                  AI Symptom Checker
-                  <Badge variant="secondary" className="ml-auto">Coming Soon</Badge>
-                </Button>
+                <Button
+                  onClick={() => (window.open = "https://ai-medical-soumyadip.onrender.com","_blank")}
+                  variant="outline"
+                  className="w-full justify-start shadow-card"
+                >
                 <Button variant="outline" className="w-full justify-start shadow-card">
                   <MapPin className="mr-2 h-4 w-4" />
                   Find Nearby Clinics
